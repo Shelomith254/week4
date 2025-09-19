@@ -3,42 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Webpage</title>
+  <title>CSS & JavaScript Animations</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <h1>🎬 CSS + JavaScript Animation Playground</h1>
 
-  <header>
-    <h1>My Responsive Website</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <!-- Part 1: CSS Transitions & Animations -->
+  <button id="hoverBtn">Hover Me</button>
+  <div class="box" id="animateBox"></div>
 
-  <main class="grid-container">
-    <section class="content">
-      <h2>Main Content</h2>
-      <p>This is the main content area using CSS Grid.</p>
-    </section>
+  <!-- Part 2: Function & Scope Demo -->
+  <div>
+    <p id="scopeResult"></p>
+  </div>
 
-    <aside class="sidebar">
-      <h2>Sidebar</h2>
-      <ul class="flex-cards">
-        <li>Card 1</li>
-        <li>Card 2</li>
-        <li>Card 3</li>
-      </ul>
-    </aside>
-  </main>
+  <!-- Part 3: JS Triggering CSS Animation -->
+  <button id="triggerAnimationBtn">Animate Box</button>
 
-  <footer>
-    <p>&copy; 2025 My Website</p>
-  </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
